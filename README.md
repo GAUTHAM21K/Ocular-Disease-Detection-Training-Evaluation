@@ -7,8 +7,6 @@ A simple pipeline to fine-tune a Vision Transformer (ViT) on the ODIR-5K ocular 
 
 The primary script is `run_training.py`.
 
-> ⚠️ **Security Note**: The version of `run_training.py` you provided contains embedded Kaggle credentials. Do **NOT** commit credentials to source control. Use environment variables or the Kaggle CLI instead.
-
 ---
 
 ## 📚 Table of Contents
@@ -219,8 +217,4 @@ To adjust hyperparameters, edit the `TrainingArguments` block in `run_training.p
 
 ```
 
----
-
-Would you like me to add **badges** (like Python version, dataset size, GPU support, etc.) at the top for a more GitHub-style professional look?
-```
 
